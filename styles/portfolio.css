@@ -3,8 +3,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 /* font-size: 45px; */
     font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    /* font-weight: 800; */
 }
 .text-primary{
     color: #FD6E0A;
@@ -19,12 +18,19 @@ body{
     padding: 15px 35px;
 }
 
+/* header related style */
+/* header related style */
+.header{
+    background-color: #fff8f3;
+}
 
+/* nav related styles */
 /* nav related styles */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     font-size: 45px; 
@@ -42,5 +48,15 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+/* BANNER SECTION */
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
 
